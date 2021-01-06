@@ -4,7 +4,7 @@
 <title>Mindustry Logic - Unit-based Wireless Communication (Ruika's proposal)</title>
 </head>
 <body>
-<div style="font-family: monospace;white-space: pre;">
+<div style="font-family: monospace;white-space: pre-wrap;">
 <b>[uwc-ruika] Mindustry Logic - Unit-based Wireless Communication (Ruika's proposal)</b>
 
 <b>Terminology:</b>
@@ -22,7 +22,8 @@ Each flag is a 53-bit integer. UWC-Ruika uses flags as storage for information t
 This protocol uses bit 1 (negative bit) to reserve that unit for UWC-Ruika protocol. Flag is divided as follows:
 
 | 1             | 2 ... 53 |
-| Reserving bit | Packet   |
+|---------------|----------|
+|NetwrkReservBit| Packet   |
 
 Packet is also divided into several parts:
 
@@ -30,8 +31,10 @@ Packet is also divided into several parts:
 |-------|----------|-----------|
 |AknwBit| Address  |   Data    |
 
-Aknowledgment Bits (2 - 3)
-
+Acknowledgment Bits (2 - 3):
+Acknowledgment bits are used to inform the status of the node/packet.
+  Bit 2 - Node reserving bit. Used to inform that this node is currently taken by a packet and must not be used.
+  Bit 3 - "Ready" bit. Used to inform that packet is finished and is ready to be received.
 </div>
 </body>
 </html>
