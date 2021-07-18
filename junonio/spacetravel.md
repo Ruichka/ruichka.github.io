@@ -124,5 +124,21 @@ Players in one faction can't invade eachother. Terminal has "Faction" chat which
 > Consumes: 1 uranium bar and 5 ice ore per 5 seconds.
 > 
 > Production: 10000W
+>
+> Craft: 500 iron bars, 500 copper bars, 200 circuit boards, 100 meteorite, 25 uranium bar, 50 radioactive gel
 > 
 > Special: Does not have any storage, production is gone when there is no uranium bars & ice ore in the inventory.
+- Radioactive Slime
+> Category: Neutral Mob
+> 
+> Texture: Light-green colored slime
+>
+> Natural occurance: Radioactive planets (Common)
+>
+> Health: 50
+>
+> Speed: 5
+> 
+> Damage: 6
+> 
+> Butcher: 2-3 radioactive gel
