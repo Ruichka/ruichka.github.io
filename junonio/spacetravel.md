@@ -1,10 +1,3 @@
-<style>
-  body {
-    background-color: #121212;
-    text-color: #bbbbbb;
-  }
-</style>
-
 # Global map & sector travel 
 
 Right now, all survival sectors are completely separate from eachother and there's no way to travel between them, the only cross-sector thing we got now is ATM account.
