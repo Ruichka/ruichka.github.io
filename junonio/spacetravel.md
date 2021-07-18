@@ -1,8 +1,16 @@
+<style>
+  body {
+    background-color: #121212;
+    text-color: #bbbbbb;
+  }
+</style>
+
 # Global map & sector travel 
 
 Right now, all survival sectors are completely separate from eachother and there's no way to travel between them, the only cross-sector thing we got now is ATM account.
 
 So, I suggest new thing - **the global map**!
+It is only available in survival.
 It is opened by pressing G or clicking respective icon in the topbar.
 On global map, you can see all currently existent survival colonies, as well as empty asteroids and Empire bases.
 You can click on them to get basic information about them.
