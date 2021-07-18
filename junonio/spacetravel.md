@@ -43,52 +43,85 @@ Players in one faction can't invade eachother. Terminal has "Faction" chat which
 **New items/buildings:**
 - Grass Tile
 > Category: Floor Terrain
+> 
 > Natural Occurence: Oxygenic planets (Rare), Alive planets (Common)
+> 
 > Texture: Grass floor
 - Stone
 > Category: Wall Terrain
+> 
 > Natural Occurance: Oxygenic and Alive planets (Common)
+> 
 > Texture: Dark-gray asteroid
+> 
 > Health: 50
+> 
 > Drop: 5x Sand/5x Iron Ore per 5 health
 - Ice Rock
 > Category: Floor Terrain
+> 
 > Natural Occurance: Ice Asteroids (Common)
+> 
 > Texture: Cyan rock
+> 
 > Effect: Low friction, everything slips on it
 - Ice Asteroid
 > Category: Wall Terrain
+> 
 > Natural Occurance: Ice Asteroids (Common)
+> 
 > Texture: Cyan asteroid
+> 
 > Health: 10
+> 
 > Drop: 5x Ice Ore per 5 health
 - Sulfur Asteroid
 > Category: Wall Terrain
+> 
 > Natural Occurance: Radioactive planets and lava asteroids (Uncommon)
+> 
 > Texture: Asteroid with sulfur-yellow patches
+> 
 > Health: 50
+> 
 > Drop: 5x Sulfur Ore per 10 health
 - Uranium Asteroid
 > Category: Wall Terrain
+> 
 > Natural Occurance: Radioactive planets (Rare)
+> 
 > Texture: Asteroid with green patches
+> 
 > Health: 100
+> 
 > Drop: 1x Uranium Ore per 5 health
 - Uranium Ore
 > Category: Material
+> 
 > Description: Radioactive ore used in atomic energistics.
+> 
 > Texture: Green iron ore
+> 
 > Special: Deals 1 damage/item/s for player keeping uranium in his inventory without hazmat suit.
 - Uranium Bar
 > Category: Material
+> 
 > Description: Processed uranium, ready for use.
+> 
 > Texture: Green iron bar
+> 
 > Craft Recipe: Furnace - 1 uranium ore, 3 iron ore
 - Nuclear Reactor
 > Category: Electric Building
+> 
 > Description: Uses nuclear reactions in order to generate electricity.
+> 
 > Size: 4x4
+> 
 > Inventory: 5 slots (uranium bar), 5 slots (ice ore)
+> 
 > Consumes: 1 uranium bar and 5 ice ore per 5 seconds.
+> 
 > Production: 10000W
-> Special: Does not has any storage, production is gone when there is no uranium bars & ice ore in the inventory.
+> 
+> Special: Does not have any storage, production is gone when there is no uranium bars & ice ore in the inventory.
